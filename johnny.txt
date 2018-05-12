@@ -6,3 +6,5 @@ Language: C#
 2. master
 
 Winner is Warriors. Of course.
+
+Runnerup are the Celtics.
