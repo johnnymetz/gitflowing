@@ -5,5 +5,4 @@ Language: C#
 1. master
 2. master
 
-Winner is Warriors.
-
+Winner is Warriors. Of course.
