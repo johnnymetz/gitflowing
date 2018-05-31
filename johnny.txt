@@ -1,10 +1,3 @@
 Hello Johnny
 
 Language: C#
-
-1. master
-2. master
-
-Winner is Warriors. Of course.
-
-Runnerup are the Cavs man.
