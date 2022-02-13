@@ -1,3 +1,3 @@
 # Git Flowing
 
-Testing out git tips and tricks.
+Play around with git.
