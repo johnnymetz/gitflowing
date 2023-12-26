@@ -1,8 +1,8 @@
 name: Auto-approve
 on:
   pull_request:
-  # check_suite:
-  #   types: [completed]
+  check_suite:
+    types: [completed]
 
 permissions:
   contents: write
