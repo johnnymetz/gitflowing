@@ -1,5 +1,8 @@
 name: Auto-approve
-on: pull_request
+on:
+  pull_request:
+  # check_suite:
+  #   types: [completed]
 
 permissions:
   contents: write
@@ -8,7 +11,6 @@ permissions:
 jobs:
   dependabot:
     runs-on: ubuntu-latest
-    if: github.actor == 'dependabot[bot]'
     steps:
       - name: Dependabot metadata
         id: metadata
