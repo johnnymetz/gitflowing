@@ -2,4 +2,7 @@ repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
     hooks:
+      # https://github.com/pre-commit/pre-commit-hooks#no-commit-to-branch
       - id: no-commit-to-branch
+        args: [--branch, main]
+        stages: [pre-push]
